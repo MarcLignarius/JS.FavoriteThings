@@ -1,18 +1,22 @@
-# _{Application Name}_
+# _Arrays Practice: Favorite Things_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _User inputs their favorite things and functions displays a list of the first three, 04/01/2019_
 
 #### By _**Marc Davies**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Enter some of your favorite things. A function will:_
+
+* _Place your 5 favorite things into an array_
+* _Make a new array containing your first, second and third favorite things_
+* _Display this new array into an unordered list_
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
 * _Open index.html_
-* _Alternatively, launch marclignarius.github.io/projectname_
+* _Alternatively, launch marclignarius.github.io/arraysfavthings_
 
 ## Known Bugs
 
