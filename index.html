@@ -7,17 +7,47 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Site Title</title>
+  <title>Arrays: Favorite Things</title>
 </head>
 <body>
 <!-- This section is the header of the site. -->
   <div class="container">
     <div class="jumbotron">
-      <h1>Site Heading</h1>
-      <p>Site Intro</p>
+      <h1>Arrays Practice: Favorite Things</h1>
+      <br>
+      <p>Enter some of your favorite things. A function will:</p>
+      <ol>
+        <li>Place your 5 favorite things into an array</li>
+        <li>Make a new array containing your first, second and third favorite things</li>
+        <li>Display this new array into an unordered list</li>
+      </ol>
     </div>
-<!-- This section is... -->
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- This section is the form where we gather the user's favorite things. -->
+    <form id ="userInput">
+     <div class="form-group">
+       <label for="favoriteThing1">Your Favorite Thing #1</label>
+       <input id="favoriteThing1" class="form-control" type="text">
+     </div>
+     <div class="form-group">
+       <label for="favoriteThing2">Your Favorite Thing #2</label>
+       <input id="favoriteThing2" class="form-control" type="text">
+     </div>
+     <div class="form-group">
+       <label for="favoriteThing3">Your Favorite Thing #3</label>
+       <input id="favoriteThing3" class="form-control" type="text">
+     </div>
+     <div class="form-group">
+       <label for="favoriteThing4">Your Favorite Thing #4</label>
+       <input id="favoriteThing4" class="form-control" type="text">
+     </div>
+     <div class="form-group">
+       <label for="favoriteThing5">Your Favorite Thing #5</label>
+       <input id="favoriteThing5" class="form-control" type="text">
+     </div>
+     <button type="submit" class="btn btn-dark">Submit</button>
+     <div id="output">
+     </div>
+    </form>
 <!-- As with the very first section, this section should generally not be edited. -->
   </div>
 </body>
